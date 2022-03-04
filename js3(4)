@@ -1,0 +1,6 @@
+let a = prompt("Число пользователя:");
+let n = prompt("Степень");
+function qwad(a, n) {
+    return a ** n;
+}
+alert(qwad(a, n));
