@@ -1,0 +1,9 @@
+let estimation = prompt("Введите оценку по шкале от 2 до 5");
+function estimationPH(estimation) {
+    if (estimation == 5) return "Отличник";
+    else if (estimation == 4) return "Ударник";
+    else if (estimation == 3) return "Троечник";
+    else if (estimation == 2) return "Двоечник";
+    else return "Ошибка";
+}
+alert(estimationPH(estimation));
