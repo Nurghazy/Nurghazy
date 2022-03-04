@@ -1,0 +1,7 @@
+let number1 = prompt("первое число");
+let number2 = prompt("второе число");
+function argMin(number1, number2) {
+    if (number1 > number2) return number2;
+    else return number1;
+}
+alert(argMin(number1, number2));
